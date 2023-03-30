@@ -1,0 +1,10 @@
+openai
+langchain
+unstructured
+chroma
+torch
+gradio
+libmagic
+chromadb
+fastapi
+python-magic==0.4.15
