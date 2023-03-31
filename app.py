@@ -104,7 +104,7 @@ def bot(history, text):
       history[-1][1] = "Upload a document first"
       yield history, ""
       
-with gr.Blocks() as demo:
+with gr.Blocks(theme=gr.themes.Soft()) as demo:
     chatbot = gr.Chatbot([], elem_id="chatbot", label = "TLDR the T&C").style(height = 750)
 
     with gr.Row():
