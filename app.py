@@ -104,7 +104,7 @@ def bot(history, text):
       history[-1][1] = "Upload a document first"
       yield history, ""
       
-with gr.Blocks(theme = gr.themes.Soft()) as demo:
+with gr.Blocks() as demo:
     chatbot = gr.Chatbot([], elem_id="chatbot", label = "TLDR the T&C").style(height = 750)
 
     with gr.Row():
@@ -121,7 +121,7 @@ with gr.Blocks(theme = gr.themes.Soft()) as demo:
     )
     btn.upload(add_file, [chatbot, btn], [chatbot])
 
-demo.queue().launch(share = True)
+demo.queue()
 tldr_app = gr.mount_gradio_app(tldr_app, demo, path=TLDR_APP_PATH)
 
 @tldr_app.get("/")
@@ -130,3 +130,7 @@ def root():
         "response": "Welcome to the TLDR bot API"
    }
 
+if __name__ == '__main__':
+
+  import uvicorn
+  uvicorn.run(tldr_app)
