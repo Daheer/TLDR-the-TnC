@@ -32,8 +32,26 @@ Video goes here!!!
 
 # Contact
 
-Dahir Ibrahim (Deedax Inc) - http://instagram.com/deedax_inc <br>
-Email - suhayrid@gmail.com <br>
-YouTube - https://www.youtube.com/channel/UCqvDiAJr2gRREn2tVtXFhvQ <br>
-Twitter - https://twitter.com/DeedaxInc <br>
-Project Link - https://github.com/Daheer/TLDR-the-TnC
+
+<table align = 'center'>
+    <tbody>
+        <tr>
+            <td><a href="mailto: dahiru.ibrahim@outlook.com">
+            <img height="50" src="https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg" />
+            </a></td>
+            <td><a href="https://www.youtube.com/@deedaxinc">
+            <img height="50" src="https://www.vectorlogo.zone/logos/youtube/youtube-ar21.svg" />
+            </a></td>
+            <td><a href="https://github.com/Daheer/TLDR-the-TnC">
+            <img height="50" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" />
+            </a></td>
+            <td><a href="https://twitter.com/DeedaxInc">
+            <img height="50" src="https://www.vectorlogo.zone/logos/twitter/twitter-ar21.svg" />
+            </a></td>
+            <td><a href="http://instagram.com/deedax_inc">
+            <img height="50" src="https://www.vectorlogo.zone/logos/instagram/instagram-ar21.svg"/>
+            </a></td>
+        </tr>
+    </tbody>
+</table>
+
