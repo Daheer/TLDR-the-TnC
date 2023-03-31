@@ -1,4 +1,4 @@
-# TLDR-the-TnC
+# TLDR-the-T&C
 > TLDR the T&amp;C is a Gradio-based chatbot that provides a user-friendly interface for users to ask questions about the contents of Terms and Conditions (T&C) documents. The chatbot uses an LLM (Language Model Machine) and the OpenAI API to understand the T&C documents and provide summarized answers to users' queries.
 
 > The code is designed to process both PDF and TXT files and includes functionality for splitting large documents into smaller chunks for more efficient processing. The OpenAI API is used for text embeddings and retrieval QA, which allows the chatbot to provide more accurate and relevant responses to users' questions.
@@ -20,7 +20,11 @@
 
 # Demo
 
-<code style="background-color:#a61237">live</code> demo available at [this HuggingFace Space](https://huggingface.co/spaces/deedax/TLDR-the-TnC)
+Video goes here!!!
+
+<code style="background-color:green">live</code> demo available at [this HuggingFace Space](https://huggingface.co/spaces/deedax/TLDR-the-TnC)
+
+<code style="background-color:green">live</code> deployment available at [Render.com](https://tldr-the-tandc.onrender.com/tldr-bot/)
 
 # Reference
 
