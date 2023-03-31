@@ -1,10 +1,9 @@
-openai
-langchain
-unstructured
-chroma
-torch
-gradio
+openai==0.27.2
+langchain==0.0.127
+unstructured==0.5.8
+torch==2.0.0
+gradio==3.24.0
 libmagic
-chromadb
-fastapi
+chromadb==0.3.17
+fastapi==0.95.0
 python-magic==0.4.15

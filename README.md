@@ -20,6 +20,7 @@
 ### FastAPI Method
 
 > Paste your OpenAI API key in [OPENAI_API_KEY](OPENAI_API_KEY.txt)
+    
     uvicorn app:tldr_app
 
 ### Pure python
