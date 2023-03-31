@@ -15,17 +15,27 @@ from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.callbacks.base import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
-#import magic
+import magic
 import nltk
 import time
 import re
 import gradio as gr
 from fastapi import FastAPI
+import argparse
+
+parser = argparse.ArgumentParser(description='TLDR Bot')
+
+parser.add_argument('-k', '--key', type=str, required=True,
+                    help='OpenAI API Key, format = sk-XXZXXXXXXXXXXXXXX')
+args = parser.parse_args()
+
+OPENAI_API_KEY = args.key
 
 # Paste your OpenAI API key in the file OPENAI_API_KEY.txt (format: sk-XXZXXXXXXXXXXXXXX)
 
-with open('OPENAI_API_KEY.txt') as f:
-  OPENAI_API_KEY = f.read().strip()
+if not OPENAI_API_KEY:
+  with open('OPENAI_API_KEY.txt') as f:
+    OPENAI_API_KEY = f.read().strip()
 
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 

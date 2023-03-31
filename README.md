@@ -14,14 +14,18 @@
 
 # Usage
 
-``` 
-git clone https://github.com/Daheer/TLDR-the-TnC.git 
-pip install -r requirements.txt
-```
+    git clone https://github.com/Daheer/TLDR-the-TnC.git 
+    pip install -r requirements.txt
+
+### FastAPI Method
+
 > Paste your OpenAI API key in [OPENAI_API_KEY](OPENAI_API_KEY.txt)
-```
-uvicorn app:tldr_app
-```
+    uvicorn app:tldr_app
+
+### Pure python
+
+
+
 
 # Demo
 
