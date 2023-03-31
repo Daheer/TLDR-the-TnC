@@ -25,7 +25,7 @@ uvicorn app:tldr_app
 
 # Demo
 
-<code style="background-color:#a61237">live</code> demo available at [this Huggingface Space](https://huggingface.co/spaces/deedax/TLDR-the-TnC)
+<code style="background-color:#a61237">live</code> demo available at [this HuggingFace Space](https://huggingface.co/spaces/deedax/TLDR-the-TnC)
 
 # Reference
 
