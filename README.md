@@ -20,7 +20,8 @@
 
 # Demo
 
-Video goes here!!!
+https://user-images.githubusercontent.com/34832399/229383981-1d55b9ca-4b10-4f78-b498-ccac66759266.mp4
+
 
 <code style="background-color:green">live</code> demo available at [this HuggingFace Space](https://huggingface.co/spaces/deedax/TLDR-the-TnC)
 
