@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
-from langchain.callbacks.base import CallbackManager
+from langchain.callbacks.manager import AsyncCallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 import magic
 import nltk
